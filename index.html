@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel's Pizzeria — Pizzeria artisanale au feu de bois à Liège</title>
+  <meta name="description" content="Daniel's Pizzeria, pizzeria artisanale à Liège : pâte pétrie chaque jour, produits frais et cuisson au feu de bois. Ouvert 7j/7 de 11h à 23h. Réservez votre table en ligne." />
+  <meta name="theme-color" content="#0f0b09" />
+  <meta property="og:title" content="Daniel's Pizzeria — Liège" />
+  <meta property="og:description" content="La vraie pizza napolitaine, cuite au feu de bois, au cœur de Liège." />
+  <meta property="og:image" content="assets/img/craft-feu.webp" />
+  <link rel="icon" href="assets/img/logo.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/img/hero-pizza.webp" as="image" />
+  <link rel="stylesheet" href="styles.css?v=11" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top" aria-label="Daniel's Pizzeria, retour en haut">
+      <img src="assets/img/logo.png" alt="" width="40" height="40" />
+      <span>Daniel's <em>Pizzeria</em></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#histoire">Histoire</a>
+      <a href="#savoir-faire">Savoir-faire</a>
+      <a href="#carte">La carte</a>
+      <a href="#infos">Infos</a>
+      <a class="nav-cta" href="#reservation">Réserver</a>
+    </nav>
+    <a class="btn btn-primary btn-sm topbar-cta" href="#reservation">Réserver une table</a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-embers" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="status intro" style="--i:0" data-open-status>
+            <span class="status-dot"></span><span class="status-text">Ouvert 7j/7 · 11h – 23h</span>
+          </p>
+          <h1 class="hero-title">
+            <span class="line"><span class="intro" style="--i:1">La vraie pizza</span></span>
+            <span class="line"><span class="intro" style="--i:2"><em>napolitaine,</em></span></span>
+            <span class="line"><span class="intro" style="--i:3">au cœur de Liège.</span></span>
+          </h1>
+          <p class="hero-lead intro" style="--i:4">
+            Pâte pétrie chaque jour, produits frais et cuisson au feu de bois&nbsp;: chez Daniel's, chaque pizza sort du four comme à Naples.
+          </p>
+          <div class="hero-actions intro" style="--i:5">
+            <a class="btn btn-primary" href="#reservation">Réserver une table</a>
+            <a class="btn btn-ghost" href="#carte">Découvrir la carte <span aria-hidden="true">→</span></a>
+          </div>
+          <dl class="hero-facts intro" style="--i:6">
+            <div><dt>20+ ans</dt><dd>d'expérience du chef</dd></div>
+            <div><dt>Feu de bois</dt><dd>cuisson traditionnelle</dd></div>
+            <div><dt>7j/7</dt><dd>de 11h à 23h</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-visual intro-visual" aria-hidden="true">
+          <div class="pizza-stage">
+            <img class="hero-pizza" src="assets/img/hero-pizza.webp" alt="" width="560" height="561" />
+            <div class="seal-wrap">
+              <svg class="seal" viewBox="0 0 200 200">
+                <defs>
+                  <path id="seal-path" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" />
+                </defs>
+                <text><textPath href="#seal-path" textLength="485">Pizzeria artisanale · Feu de bois · Liège ·</textPath></text>
+              </svg>
+              <div class="seal-core">D<span>·</span>P</div>
+            </div>
+          </div>
+          <div class="hero-tags">
+            <div class="hero-tag tag-price">
+              <span class="tag-label">La classique</span>
+              <strong>Margherita</strong>
+              <span class="tag-price-value">12,99 €</span>
+            </div>
+            <div class="hero-tag tag-fire">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2c1 3.5-1.5 5-1.5 7.5 0 1.4 1 2.5 2.3 2.5 1.6 0 2.4-1.4 2-3.2C17.7 10.6 19 13 19 15.5 19 19.1 15.9 22 12 22s-7-2.9-7-6.5C5 10.2 10.6 7.6 12 2Z"/></svg>
+              Cuite au feu de bois
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#histoire" aria-label="Défiler vers notre histoire"><span></span></a>
+    </section>
+
+    <!-- BANDEAU -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Pâte pétrie chaque jour</span><b>✦</b>
+        <span><em>Cuisson au feu de bois</em></span><b>✦</b>
+        <span>Produits frais &amp; locaux</span><b>✦</b>
+        <span><em>Tradition napolitaine</em></span><b>✦</b>
+        <span>Ouvert 7j/7</span><b>✦</b>
+        <span>Pâte pétrie chaque jour</span><b>✦</b>
+        <span><em>Cuisson au feu de bois</em></span><b>✦</b>
+        <span>Produits frais &amp; locaux</span><b>✦</b>
+        <span><em>Tradition napolitaine</em></span><b>✦</b>
+        <span>Ouvert 7j/7</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- HISTOIRE -->
+    <section class="section story" id="histoire">
+      <div class="container story-grid">
+        <div class="story-copy">
+          <p class="eyebrow reveal">Notre histoire</p>
+          <h2 class="reveal">Une passion née à <em>Naples</em>, servie à Liège.</h2>
+          <p class="reveal">
+            Originaire de Naples, Marco, notre chef pizzaiolo, a appris l'art de la pizza dans la plus pure tradition italienne.
+            Avec plus de vingt ans d'expérience, il sélectionne des ingrédients frais et pétrit chaque pâte avec passion.
+          </p>
+          <p class="reveal">
+            Chez Daniel's, nous croyons en l'authenticité et la qualité. Que ce soit pour un moment en famille, entre amis ou
+            en amoureux, notre pizzeria est un lieu de partage et de gourmandise où chacun se sent comme chez soi.
+          </p>
+          <p class="signature reveal">— Marco, <span>chef pizzaiolo</span></p>
+        </div>
+
+        <div class="story-media reveal">
+          <button class="film-card" type="button" id="open-film" aria-haspopup="dialog">
+            <img src="assets/img/histoire-poster.webp" alt="Les huit pizzas de la maison devant la pizzeria" loading="lazy" width="1280" height="711" />
+            <span class="film-play" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M8 5.5v13l11-6.5z"/></svg>
+            </span>
+            <span class="film-caption"><strong>Notre film</strong><span>Découvrir la maison · 0:30</span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <dl class="stats">
+          <div class="stat reveal"><dt><span data-count="20">20</span>+</dt><dd>ans d'expérience<br>de notre chef</dd></div>
+          <div class="stat reveal"><dt><span data-count="7">7</span>j/7</dt><dd>ouvert tous les jours<br>de 11h à 23h</dd></div>
+          <div class="stat reveal"><dt><span data-count="20" data-menu-count>20</span></dt><dd>recettes à la carte,<br>toutes faites maison</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SAVOIR-FAIRE -->
+    <section class="section craft" id="savoir-faire">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Le savoir-faire</p>
+          <h2>Trois gestes, <em>une signature</em>.</h2>
+        </div>
+        <div class="craft-grid">
+          <article class="craft-card reveal">
+            <div class="craft-media"><img src="assets/img/craft-pate.webp" alt="Pâton fariné, bol de farine et rouleau à pâtisserie" loading="lazy" width="800" height="1200" /></div>
+            <span class="craft-num">01</span>
+            <h3>La pâte</h3>
+            <p>Pétrie chaque jour dans notre cuisine, elle repose le temps qu'il faut pour offrir une pizza légère et une croûte dorée.</p>
+          </article>
+          <article class="craft-card reveal">
+            <div class="craft-media"><img src="assets/img/craft-produits.webp" alt="Tomates, basilic, mozzarella, sauce tomate et charcuterie" loading="lazy" width="800" height="1200" /></div>
+            <span class="craft-num">02</span>
+            <h3>Les produits</h3>
+            <p>Des ingrédients frais et locaux, choisis avec soin, parce qu'une bonne pizza commence toujours par de bons produits.</p>
+          </article>
+          <article class="craft-card reveal">
+            <div class="craft-media"><img src="assets/img/craft-feu.webp" alt="Pizza devant les flammes d'un four à bois" loading="lazy" width="800" height="1200" /></div>
+            <span class="craft-num">03</span>
+            <h3>Le feu</h3>
+            <p>Notre secret&nbsp;: une cuisson au feu de bois qui donne à chaque pizza ce goût fumé et inimitable.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTE -->
+    <section class="section menu" id="carte">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="eyebrow">La carte</p>
+          <h2>Fait maison, <em>du four à la table</em>.</h2>
+        </div>
+
+        <div class="tabs reveal" role="tablist" aria-label="Catégories de la carte" id="menu-tabs">
+          <span class="tabs-indicator" aria-hidden="true"></span>
+        </div>
+
+        <div class="menu-layout reveal">
+          <div class="menu-preview" aria-hidden="true">
+            <div class="preview-plate">
+              <img id="preview-img" src="assets/img/menu/1.webp" alt="" width="560" height="538" />
+            </div>
+            <div class="preview-info">
+              <p class="preview-name" id="preview-name"></p>
+              <p class="preview-price" id="preview-price"></p>
+            </div>
+          </div>
+
+          <div class="menu-list-wrap" id="menu-panel" role="tabpanel">
+            <p class="menu-intro" id="menu-intro"></p>
+            <ul class="menu-list" id="menu-list"></ul>
+            <p class="menu-note">Prix TVA comprise · Une allergie ou une question&nbsp;? Notre équipe vous renseigne avec plaisir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVATION -->
+    <section class="section reservation" id="reservation">
+      <div class="container reservation-grid">
+        <div class="reservation-copy reveal">
+          <p class="eyebrow">Réservation</p>
+          <h2>Votre table <em>vous attend</em>.</h2>
+          <p>Choisissez le nombre de convives, la date et l'heure&nbsp;: nous vous confirmons la réservation par e-mail dans les plus brefs délais.</p>
+          <ul class="reassure">
+            <li>Service midi et soir, 7 jours sur 7</li>
+            <li>Groupes et anniversaires bienvenus</li>
+            <li>Une question&nbsp;? <a href="tel:+32123456789">+32 1 23 45 67 89</a></li>
+          </ul>
+        </div>
+
+        <form class="booking reveal" id="booking-form" novalidate>
+          <div class="booking-row">
+            <div class="field">
+              <span class="field-label" id="guests-label">Convives</span>
+              <div class="stepper" role="group" aria-labelledby="guests-label">
+                <button type="button" data-step="-1" aria-label="Retirer une personne">−</button>
+                <output id="guests-value" aria-live="polite">2</output>
+                <button type="button" data-step="1" aria-label="Ajouter une personne">+</button>
+              </div>
+            </div>
+            <label class="field">
+              <span class="field-label">Date</span>
+              <input type="date" name="date" id="booking-date" required />
+            </label>
+          </div>
+
+          <fieldset class="field slots">
+            <legend class="field-label">Heure</legend>
+            <div class="slot-group"><span class="slot-title">Midi</span><div class="slot-list" data-slots="12:00,12:30,13:00,13:30,14:00"></div></div>
+            <div class="slot-group"><span class="slot-title">Soir</span><div class="slot-list" data-slots="18:30,19:00,19:30,20:00,20:30,21:00,21:30"></div></div>
+          </fieldset>
+
+          <div class="booking-row">
+            <label class="field">
+              <span class="field-label">Nom</span>
+              <input type="text" name="name" autocomplete="name" placeholder="Votre nom" required />
+            </label>
+            <label class="field">
+              <span class="field-label">E-mail</span>
+              <input type="email" name="email" autocomplete="email" placeholder="vous@exemple.be" required />
+            </label>
+          </div>
+          <label class="field">
+            <span class="field-label">Message <small>(facultatif)</small></span>
+            <textarea name="message" rows="3" placeholder="Allergie, anniversaire, chaise haute…"></textarea>
+          </label>
+
+          <div class="booking-summary" aria-live="polite">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M4 6h16v14H4zM4 10h16M9 3v4M15 3v4"/></svg>
+            <span id="booking-summary">Table pour 2 · choisissez une date et une heure</span>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Envoyer ma demande</button>
+          <p class="form-feedback" id="booking-feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- INFOS -->
+    <section class="section visit" id="infos">
+      <div class="container visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow reveal">Nous trouver</p>
+          <h2 class="reveal">Venez nous <em>rendre visite</em>.</h2>
+
+          <div class="visit-block reveal">
+            <h3>Adresse</h3>
+            <p>Rue du Château Massart 70<br>4000 Liège</p>
+            <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue%20du%20Ch%C3%A2teau%20Massart%2070%2C%204000%20Li%C3%A8ge" target="_blank" rel="noopener">Itinéraire <span aria-hidden="true">→</span></a>
+          </div>
+
+          <div class="visit-block reveal">
+            <h3>Horaires <span class="status status-inline" data-open-status><span class="status-dot"></span><span class="status-text"></span></span></h3>
+            <ul class="hours" id="hours"></ul>
+          </div>
+
+          <div class="visit-block reveal">
+            <h3>Contact</h3>
+            <p><a href="tel:+32123456789">+32 1 23 45 67 89</a><br><a href="mailto:contact@daniels-pizzeria.com">contact@daniels-pizzeria.com</a></p>
+          </div>
+        </div>
+
+        <div class="map-card reveal">
+          <iframe
+            title="Plan d'accès à Daniel's Pizzeria"
+            src="https://www.google.com/maps?q=Rue%20du%20Ch%C3%A2teau%20Massart%2070%2C%204000%20Li%C3%A8ge&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-mark">Daniel's <em>Pizzeria</em></p>
+      <div class="footer-grid">
+        <div><h3>Adresse</h3><p>Rue du Château Massart 70<br>4000 Liège</p></div>
+        <div><h3>Horaires</h3><p>Tous les jours<br>11h00 – 23h00</p></div>
+        <div><h3>Contact</h3><p><a href="tel:+32123456789">+32 1 23 45 67 89</a><br><a href="mailto:contact@daniels-pizzeria.com">contact@daniels-pizzeria.com</a></p></div>
+        <div><h3>Navigation</h3><p><a href="#carte">La carte</a><br><a href="#reservation">Réserver</a></p></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Daniel's Pizzeria · Fait avec passion à Liège</p>
+        <a href="#top" class="link-arrow">Haut de page <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="film-dialog" id="film-dialog" aria-label="Film de présentation de la pizzeria">
+    <button class="dialog-close" type="button" id="close-film" aria-label="Fermer la vidéo">×</button>
+    <video id="film-video" controls playsinline preload="none" poster="assets/img/histoire-poster.webp">
+      <source src="assets/img/histoire-720p.mp4" type="video/mp4" />
+    </video>
+  </dialog>
+
+  <script src="script.js?v=11"></script>
+</body>
+</html>
