@@ -12,9 +12,11 @@ Une seule page, 100 % statique, sans framework ni étape de build.
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 ![Aucune dépendance](https://img.shields.io/badge/d%C3%A9pendances-0-brightgreen?style=flat-square)
 
-[**Voir la démo en ligne →**](https://danidois2002.github.io/pizzeria/)
+<a href="https://danidois2002.github.io/Pizzeria/"><img src="https://img.shields.io/badge/D%C3%A9mo-en%20ligne-e0482d?style=for-the-badge&logo=githubpages&logoColor=white" alt="Voir la démo en ligne" /></a>
 
-<img src="docs/preview.webp" alt="Page d'accueil de Daniel's Pizzeria : titre « La vraie pizza napolitaine, au cœur de Liège » et une Margherita qui tourne" width="900" />
+🔗 **[danidois2002.github.io/Pizzeria](https://danidois2002.github.io/Pizzeria/)**
+
+<a href="https://danidois2002.github.io/Pizzeria/"><img src="docs/preview.webp" alt="Page d'accueil de Daniel's Pizzeria : titre « La vraie pizza napolitaine, au cœur de Liège » et une Margherita qui tourne" width="900" /></a>
 
 </div>
 
@@ -56,8 +58,8 @@ Une seule page, 100 % statique, sans framework ni étape de build.
 Aucune installation n'est nécessaire.
 
 ```bash
-git clone https://github.com/Danidois2002/pizzeria.git
-cd pizzeria
+git clone https://github.com/Danidois2002/Pizzeria.git
+cd Pizzeria
 ```
 
 Ouvrez ensuite `index.html` dans votre navigateur, ou servez le dossier avec n'importe quel serveur local (WAMP, `npx serve`, l'extension Live Server de VS Code…).
@@ -65,7 +67,7 @@ Ouvrez ensuite `index.html` dans votre navigateur, ou servez le dossier avec n'i
 ## 📁 Structure
 
 ```
-pizzeria/
+Pizzeria/
 ├── index.html              # la page : hero, histoire, savoir-faire, carte, réservation, infos
 ├── styles.css              # la direction artistique (palette crème / tomate / or)
 ├── script.js               # la carte (données MENU), la réservation, le statut, la vidéo
