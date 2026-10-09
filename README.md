@@ -107,13 +107,6 @@ ffmpeg -i ma-pizza.png -vf "scale='min(560,iw)':-1" -c:v libwebp -quality 82 ass
 > [!TIP]
 > Après une modification de `styles.css` ou `script.js`, augmentez le numéro `?v=` à la fin des liens dans `index.html` : les visiteurs recevront la nouvelle version au lieu de celle en cache.
 
-## 🌐 Déploiement sur GitHub Pages
-
-1. Poussez le dépôt sur GitHub.
-2. Allez dans **Settings → Pages**.
-3. Dans *Source*, choisissez **Deploy from a branch**, puis la branche `main` et le dossier `/ (root)`.
-4. Après une minute, le site est en ligne sur `https://<votre-pseudo>.github.io/<nom-du-depot>/`.
-
 ## 📝 À propos
 
 Projet de démonstration : **Daniel's Pizzeria est une pizzeria fictive**. Le téléphone et l'adresse e-mail sont factices, et l'adresse postale sert uniquement d'exemple. Le formulaire de réservation ne passe par aucun serveur : il prépare un e-mail dans l'application de messagerie du visiteur (`mailto:`).
